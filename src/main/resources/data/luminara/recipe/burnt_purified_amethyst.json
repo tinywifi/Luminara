@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "burnt_purified_amethyst",
+  "ingredient": "luminara:purified_amethyst",
+  "result": {
+    "id": "luminara:burnt_purified_amethyst"
+  }
+}

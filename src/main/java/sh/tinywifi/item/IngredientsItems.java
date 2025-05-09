@@ -19,6 +19,7 @@ public class IngredientsItems {
     );
 
     public static Item PURIFIED_AMETHYST;
+    public static Item BURNT_PURIFIED_AMETHYST;
     public static Item SALT_CRYSTAL;
 
     public static void registerModItems() {
@@ -34,6 +35,7 @@ public class IngredientsItems {
 
         PURIFIED_AMETHYST = registerItem("purified_amethyst", LUMINARATAB);
         SALT_CRYSTAL = registerItem("salt_crystal", LUMINARATAB);
+        BURNT_PURIFIED_AMETHYST = registerItem("burnt_purified_amethyst", LUMINARATAB);
     }
 
     @SafeVarargs
