@@ -18,7 +18,6 @@ public class ModBlocks {
     public static final Block SALT = registerBlock("salt", AbstractBlock.Settings.create()
             .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Luminara.MOD_ID, "salt")))
             .strength(0.6f)
-            .requiresTool()
             .sounds(BlockSoundGroup.ROOTED_DIRT));
 
     private static void registerBlockItem(String name, Block block) {
