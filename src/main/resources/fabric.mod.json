@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "luminara",
+  "version": "${version}",
+  "name": "Luminara",
+  "description": "a mystical-themed Minecraft mod that introduces a powerful, amethyst-infused sword born from alchemy, purification, and divine force",
+  "authors": [],
+  "contact": {
+    "sources": "https://github.com/tinywifi/luminara"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/luminara/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "sh.tinywifi.client.LuminaraDataGenerator"
+    ],
+    "client": [
+      "sh.tinywifi.client.LuminaraClient"
+    ],
+    "main": [
+      "sh.tinywifi.Luminara"
+    ]
+  },
+  "mixins": [
+    "luminara.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
